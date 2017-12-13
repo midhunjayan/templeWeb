@@ -247,7 +247,7 @@ a:hover, a:focus, a:active {
 .probootstrap-navbar .btn-more {
   position: absolute;
   right: 80px;
-  top: 13px;
+  top: 34px;
   z-index: 100;
 }
 

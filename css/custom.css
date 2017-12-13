@@ -1,5 +1,29 @@
 /* Your custom css code goes here */
-.main-heading{
-  font-size: 18px;
-  color: #333;
+
+.main-heading {
+  font-size: 28px;
+  padding-top: 20px;
+  font-weight: 600;
+  color: #f58410;
+}
+
+@media (min-width: 768px) and (max-width: 1202px) {
+  .navbar-header {
+    width: 200px;
+  }
+  .main-heading {
+    font-size: 18px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 24px;
+    padding-top: 26px;
+    padding-left: 50px;
+  }
+  .navbar-toggle {
+    margin-top: 30px;
+  }
 }
