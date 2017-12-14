@@ -60,11 +60,11 @@ p, ul, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #6a41ed;
+  color: #e49e65;
 }
 
 a:hover, a:focus, a:active {
-  color: #582aeb;
+  color: #e66700;
   text-decoration: none;
 }
 
@@ -247,7 +247,7 @@ a:hover, a:focus, a:active {
 .probootstrap-navbar .btn-more {
   position: absolute;
   right: 80px;
-  top: 13px;
+  top: 34px;
   z-index: 100;
 }
 
